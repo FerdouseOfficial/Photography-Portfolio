@@ -44,14 +44,38 @@ main .heroSection h1 {
   font-size: 40px;
   margin-bottom: 30px;
 }
-main .heroSection p{
-    font-size: 16px;
+main .heroSection h1 b {
+  color: #f4d406;
 }
-.gallerySection .galleryTitle h1{
-    font-size: 40px;
-    text-align: center;
+main .heroSection p {
+  font-size: 16px;
 }
-.gallerySection .galleryImages{
-    display: grid;
-    grid-template-columns: ;
+.gallerySection .galleryTitle h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallerySection .galleryImages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0px 20px;
+}
+.gallerySection .galleryImages img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border: 4px solid black;
+  border-top-right-radius: 10px;
+  display: block;
+}
+footer {
+  margin-top: 40px;
+  background-color: var(--background-color);
+  padding: 30px;
+}
+footer h2 {
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: center;
 }
